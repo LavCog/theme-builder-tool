@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/theme-builder" mode="merge"/>
+    <filter root="/content/theme-builder" mode="merge"/>
+    <filter root="/content/dam/theme-builder" mode="merge">
+        <exclude pattern="/content/dam/theme-builder(/.*)?"/>
+        <include pattern="/content/dam/theme-builder/jcr:content(/.*)?"/>
+    </filter>
+    <filter root="/content/dam/theme-builder/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/theme-builder" mode="merge"/>
+</workspaceFilter>

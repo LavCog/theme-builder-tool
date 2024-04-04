@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2024-04-02T16:26:15.303+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/theme-builder/settings/wcm/templates/page-content"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Services"
+        sling:resourceType="theme-builder/components/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="theme-builder/components/container"
+            layout="responsiveGrid">
+            <container
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="theme-builder/components/container"
+                layout="responsiveGrid">
+                <title
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="theme-builder/components/title"/>
+                <container
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="theme-builder/components/container"
+                    layout="responsiveGrid">
+                    <container
+                        jcr:lastModified="{Date}2024-04-02T14:47:37.897+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="theme-builder/components/container"
+                        backgroundImageReference="/content/dam/theme-builder/header-bg.jpg"
+                        id="hero-banner"
+                        layout="responsiveGrid">
+                        <title
+                            jcr:lastModified="{Date}2024-04-02T14:44:42.072+05:30"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Bring Your Product To Light"
+                            sling:resourceType="theme-builder/components/title"/>
+                        <text
+                            jcr:lastModified="{Date}2024-04-02T14:44:57.931+05:30"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="theme-builder/components/text"
+                            text="&lt;p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna&lt;/p>&#xd;&#xa;"
+                            textIsRich="true"/>
+                        <button
+                            jcr:lastModified="{Date}2024-04-02T14:45:10.262+05:30"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Get Started"
+                            sling:resourceType="theme-builder/components/button"
+                            linkTarget="_self"/>
+                    </container>
+                    <container_1361523115
+                        cq:styleIds="[1712040739718]"
+                        jcr:lastModified="{Date}2024-04-02T14:47:59.848+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="theme-builder/components/container">
+                        <accordion
+                            jcr:lastModified="{Date}2024-04-02T14:49:00.963+05:30"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="theme-builder/components/accordion"
+                            singleExpansion="false">
+                            <item_1
+                                cq:panelTitle="GETTING STARTED"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Item 1"
+                                sling:resourceType="theme-builder/components/container"
+                                layout="responsiveGrid">
+                                <text
+                                    cq:styleIds="[1712054004572]"
+                                    jcr:lastModified="{Date}2024-04-02T14:50:37.762+05:30"
+                                    jcr:lastModifiedBy="admin"
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="theme-builder/components/text"
+                                    text="&lt;p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ulla-mco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in&lt;/p>&#xd;&#xa;&lt;p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque, aspernatur.&lt;/p>&#xd;&#xa;"
+                                    textIsRich="true"/>
+                                <button
+                                    jcr:lastModified="{Date}2024-04-02T14:50:25.779+05:30"
+                                    jcr:lastModifiedBy="admin"
+                                    jcr:primaryType="nt:unstructured"
+                                    jcr:title="KNOW MORE"
+                                    sling:resourceType="theme-builder/components/button"
+                                    linkTarget="_self"/>
+                            </item_1>
+                            <item_2
+                                cq:panelTitle="USER INSTRUCTIONS"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Item 2"
+                                sling:resourceType="theme-builder/components/container"
+                                layout="responsiveGrid">
+                                <text
+                                    cq:styleIds="[1712054004572]"
+                                    jcr:lastModified="{Date}2024-04-02T14:50:49.289+05:30"
+                                    jcr:lastModifiedBy="admin"
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="theme-builder/components/text"
+                                    text="&lt;p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ulla-mco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in&lt;/p>&#xd;&#xa;&lt;p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque, aspernatur.&lt;/p>&#xd;&#xa;"
+                                    textIsRich="true"/>
+                            </item_2>
+                            <item_1712049518601
+                                cq:panelTitle="STEPS TO FOLLOW"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="theme-builder/components/container">
+                                <text
+                                    cq:styleIds="[1712054004572]"
+                                    jcr:lastModified="{Date}2024-04-02T14:53:28.251+05:30"
+                                    jcr:lastModifiedBy="admin"
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="theme-builder/components/text"
+                                    text="&lt;ul>&#xd;&#xa;&lt;li>&lt;i>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ulla-mco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in&lt;/i>&lt;/li>&#xd;&#xa;&lt;li>&lt;i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque, aspernatur.&lt;/i>&lt;/li>&#xd;&#xa;&lt;li>&lt;i>minim veniam, quis nostrud exercitation ulla-mco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in&lt;/i>&lt;/li>&#xd;&#xa;&lt;li>&lt;i>minim veniam, quis nostrud exercitation ulla-mco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in&lt;/i>&lt;/li>&#xd;&#xa;&lt;li>&lt;i>minim veniam, quis nostrud exercitation ulla-mco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in&lt;/i>&lt;/li>&#xd;&#xa;&lt;/ul>&#xd;&#xa;"
+                                    textIsRich="true"/>
+                            </item_1712049518601>
+                        </accordion>
+                    </container_1361523115>
+                </container>
+            </container>
+        </root>
+    </jcr:content>
+</jcr:root>
