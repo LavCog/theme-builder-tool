@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
+        cq:lastModified="{Date}2024-04-05T21:09:42.928+05:30"
+        cq:lastModifiedBy="admin"
         cq:tags="[]"
         cq:template="/conf/theme-builder/settings/wcm/templates/xf-web-variation"
         cq:xfMasterVariation="{Boolean}true"
@@ -14,21 +16,28 @@
             sling:resourceType="theme-builder/components/container"
             layout="simple">
             <navigation
+                jcr:lastModified="{Date}2024-04-05T21:09:30.963+05:30"
+                jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="theme-builder/components/navigation"
-                collectAllPages="false"
-                navigationRoot="/content/theme-builder/us/en"
+                collectAllPages="true"
+                disableShadowing="false"
+                navigationRoot="/content/theme-builder/science/en"
                 skipNavigationRoot="false"
-                structureDepth="1"/>
+                structureDepth="1"
+                structureStart="1"/>
             <languagenavigation
+                jcr:lastModified="{Date}2024-04-05T21:09:42.844+05:30"
+                jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="theme-builder/components/languagenavigation"
-                navigationRoot="/content/theme-builder/us"
+                navigationRoot="/content/theme-builder/science"
                 structureDepth="2"/>
             <search
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="theme-builder/components/search"
                 searchRoot="/content/theme-builder/us"/>
+            <logo/>
         </root>
     </jcr:content>
 </jcr:root>

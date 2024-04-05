@@ -8,8 +8,8 @@
         cq:template="/conf/theme-builder/settings/wcm/templates/consent-form"
         jcr:description="Simply fill out our convenient consent form and let our team take care of your stay and travel.  | WKND Travels"
         jcr:primaryType="cq:PageContent"
-        sling:resourceType="theme-builder/components/adaptiveForm/page"
         sling:configRef="/conf/theme-builder/forms"
+        sling:resourceType="theme-builder/components/adaptiveForm/page"
         guideComponentType="fd/af/templates">
         <guideContainer
             fd:version="2.1"
@@ -380,8 +380,7 @@
                     linkTarget="_self"
                     name="logoImage"
                     titleValueFromDAM="false"
-                    width="0">
-                </image>
+                    width="0"/>
                 <text
                     jcr:lastModified="{Date}2023-05-12T07:14:19.173Z"
                     jcr:lastModifiedBy="admin"

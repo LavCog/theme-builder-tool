@@ -9,8 +9,8 @@
         jcr:description="A log service request template to capture and address customer queries."
         jcr:primaryType="cq:PageContent"
         jcr:title="Log Service Request"
-        sling:resourceType="theme-builder/components/adaptiveForm/page"
         sling:configRef="/conf/theme-builder/forms"
+        sling:resourceType="theme-builder/components/adaptiveForm/page"
         guideComponentType="fd/af/templates">
         <guideContainer
             fd:version="2.1"
@@ -307,8 +307,7 @@
                     linkTarget="_self"
                     name="logoImage"
                     titleValueFromDAM="false"
-                    width="0">
-                </image>
+                    width="0"/>
                 <text
                     jcr:lastModified="{Date}2023-05-08T08:15:41.360Z"
                     jcr:lastModifiedBy="admin"

@@ -7,8 +7,8 @@
         cq:lastModifiedBy="admin"
         cq:template="/conf/theme-builder/settings/wcm/templates/give-feedback"
         jcr:primaryType="cq:PageContent"
-        sling:resourceType="theme-builder/components/adaptiveForm/page"
         sling:configRef="/conf/theme-builder/forms"
+        sling:resourceType="theme-builder/components/adaptiveForm/page"
         guideComponentType="fd/af/templates">
         <guideContainer
             fd:version="2.1"
@@ -302,8 +302,7 @@
                     linkTarget="_self"
                     name="logoImage"
                     titleValueFromDAM="false"
-                    width="0">
-                </image>
+                    width="0"/>
                 <text
                     jcr:lastModified="{Date}2023-05-08T08:24:23.532Z"
                     jcr:lastModifiedBy="admin"
