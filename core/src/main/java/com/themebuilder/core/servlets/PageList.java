@@ -30,11 +30,11 @@ public class PageList extends SlingAllMethodsServlet {
             throws ServletException, IOException {
         final ResourceResolver resourceResolver = req.getResourceResolver();
         Page page = resourceResolver.adaptTo(PageManager.class).getPage("/content/theme-builder");
-        JsonArray pagesArray = new JsonArray();
-
+        //JsonArray pagesArray = new JsonArray();
+        JsonObject pageObject = new JsonObject();
         try {
             Iterator<Page> childPages = page.listChildren();
-            JsonObject pageObject = new JsonObject();
+            //JsonObject pageObject = new JsonObject();
             while (childPages.hasNext()) {
                 Page childPage = childPages.next();
                 String pagePath = childPage.getPath().toString();
@@ -47,13 +47,13 @@ public class PageList extends SlingAllMethodsServlet {
                     LOG.info("Page Title is null for Page Path : " + pagePath);
                 }
             }
-            pagesArray.add(pageObject);
+            //pagesArray.add(pageObject);
         } catch (JsonException e) {
             LOG.info("\n ERROR {} ", e.getMessage());
         }
 
         resp.setContentType("application/json");
-        resp.getWriter().write(pagesArray.toString());
+        resp.getWriter().write(pageObject.toString());
     }
 
 }
