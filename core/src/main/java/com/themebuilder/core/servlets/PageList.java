@@ -34,19 +34,20 @@ public class PageList extends SlingAllMethodsServlet {
 
         try {
             Iterator<Page> childPages = page.listChildren();
-
+            JsonObject pageObject = new JsonObject();
             while (childPages.hasNext()) {
                 Page childPage = childPages.next();
-                JsonObject pageObject = new JsonObject();
                 String pagePath = childPage.getPath().toString();
                 String pageTitle = childPage.getTitle();
                 if (pageTitle != null) {
-                    pageObject.add(pageTitle, new JsonPrimitive(pagePath));
-                    pagesArray.add(pageObject);
+                    String name = pageTitle.toLowerCase().replace(' ', '-');
+                    pageObject.add(pageTitle, new JsonPrimitive(name));
+                    
                 } else {
                     LOG.info("Page Title is null for Page Path : " + pagePath);
                 }
             }
+            pagesArray.add(pageObject);
         } catch (JsonException e) {
             LOG.info("\n ERROR {} ", e.getMessage());
         }
