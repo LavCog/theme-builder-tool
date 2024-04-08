@@ -15,7 +15,6 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import com.day.cq.wcm.api.Page;
 import com.day.cq.wcm.api.PageManager;
-import com.google.gson.JsonArray;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonPrimitive;
 
@@ -30,24 +29,22 @@ public class PageList extends SlingAllMethodsServlet {
             throws ServletException, IOException {
         final ResourceResolver resourceResolver = req.getResourceResolver();
         Page page = resourceResolver.adaptTo(PageManager.class).getPage("/content/theme-builder");
-        //JsonArray pagesArray = new JsonArray();
         JsonObject pageObject = new JsonObject();
+        int siteCounter = 1;
         try {
             Iterator<Page> childPages = page.listChildren();
-            //JsonObject pageObject = new JsonObject();
             while (childPages.hasNext()) {
                 Page childPage = childPages.next();
-                String pagePath = childPage.getPath().toString();
                 String pageTitle = childPage.getTitle();
                 if (pageTitle != null) {
-                    String name = pageTitle.toLowerCase().replace(' ', '-');
-                    pageObject.add(pageTitle, new JsonPrimitive(name));
+                    String name = pageTitle.replace(' ', '-');
+                    String siteKey = "site-" + siteCounter++;
+                    pageObject.add(siteKey, new JsonPrimitive(name));
                     
                 } else {
-                    LOG.info("Page Title is null for Page Path : " + pagePath);
+                    LOG.info("Page Title is null for Page Path : " + pageTitle);
                 }
             }
-            //pagesArray.add(pageObject);
         } catch (JsonException e) {
             LOG.info("\n ERROR {} ", e.getMessage());
         }
