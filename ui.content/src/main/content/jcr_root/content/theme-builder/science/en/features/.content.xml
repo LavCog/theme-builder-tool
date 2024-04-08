@@ -2,7 +2,7 @@
 <jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2024-04-02T16:16:38.913+05:30"
+        cq:lastModified="{Date}2024-04-08T16:29:21.166+05:30"
         cq:lastModifiedBy="admin"
         cq:template="/conf/theme-builder/settings/wcm/templates/page-content"
         jcr:primaryType="cq:PageContent"
@@ -16,9 +16,6 @@
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="theme-builder/components/container"
                 layout="responsiveGrid">
-                <title
-                    jcr:primaryType="nt:unstructured"
-                    sling:resourceType="theme-builder/components/title"/>
                 <container
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="theme-builder/components/container"
@@ -78,15 +75,15 @@
                             titleValueFromDAM="true"/>
                     </carousel>
                     <container
-                        cq:styleIds="[1712040739718]"
+                        cq:styleIds="[1712570160937]"
                         jcr:lastModified="{Date}2024-04-02T13:25:48.517+05:30"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="theme-builder/components/container">
                         <teaser
-                            cq:styleIds="[1712040554373]"
+                            cq:styleIds="[1712570237588]"
                             jcr:description="&lt;p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ulla-mco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in&lt;/p>&#xd;&#xa;&lt;p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque, aspernatur.&lt;/p>&#xd;&#xa;"
-                            jcr:lastModified="{Date}2024-04-02T14:41:44.500+05:30"
+                            jcr:lastModified="{Date}2024-04-08T16:29:21.146+05:30"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             jcr:title="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam ipsa recusandae consequatur veniam, reiciendis odit quia eaque vel eius a."
@@ -110,8 +107,8 @@
                         </teaser>
                     </container>
                     <container_400486794
-                        cq:styleIds="[1712040739718]"
-                        jcr:lastModified="{Date}2024-04-02T13:31:02.170+05:30"
+                        cq:styleIds="[1712570160937]"
+                        jcr:lastModified="{Date}2024-04-08T15:51:38.903+05:30"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="theme-builder/components/container">
@@ -141,7 +138,7 @@
                             linkURL="#"/>
                     </container_400486794>
                     <container_1057544515
-                        cq:styleIds="[1712040739718]"
+                        cq:styleIds="[1712570160937]"
                         jcr:lastModified="{Date}2024-04-02T14:26:10.791+05:30"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
@@ -271,7 +268,7 @@
                         </cq:responsive>
                     </container_1057544515>
                     <container_1361064940
-                        jcr:lastModified="{Date}2024-04-02T13:45:09.670+05:30"
+                        jcr:lastModified="{Date}2024-04-08T15:52:11.547+05:30"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="theme-builder/components/container"
