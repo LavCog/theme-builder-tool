@@ -35,14 +35,13 @@ public class PageList extends SlingAllMethodsServlet {
             Iterator<Page> childPages = page.listChildren();
             while (childPages.hasNext()) {
                 Page childPage = childPages.next();
-                String pageTitle = childPage.getTitle();
-                if (pageTitle != null) {
-                    String name = pageTitle.replace(' ', '-');
+                String pageName = childPage.getName();
+                if (pageName != null) {
                     String siteKey = "site-" + siteCounter++;
-                    pageObject.add(siteKey, new JsonPrimitive(name));
+                    pageObject.add(siteKey, new JsonPrimitive(pageName));
                     
                 } else {
-                    LOG.info("Page Title is null for Page Path : " + pageTitle);
+                    LOG.info("Page Title is null for Page Path : " + pageName);
                 }
             }
         } catch (JsonException e) {
