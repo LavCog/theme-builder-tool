@@ -4,5 +4,5 @@
     allowProxy="{Boolean}true"
     categories="[theme-builder.medicine]"
     cssProcessor="[default:none,min:none]"
-    dependencies="[theme-builder.dependencies]"
+    dependencies="[theme-builder.dependencies,granite.jquery]"
     jsProcessor="[default:none,min:none]"/>

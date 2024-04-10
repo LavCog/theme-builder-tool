@@ -281,6 +281,20 @@ header.experiencefragment {
     border-bottom: 0 !important;
     padding: 1em 1em !important;
     background-color: var(--background-color) !important;
+    .cmp-container
+    {
+        display: flex !important;
+        width: 100%;
+    }
+    
+    .cmp-experiencefragment--header
+    {
+        
+        .cmp-container .text
+        {
+            width: 20%;
+        }
+    }
 
     a {
         color: var(--font-color);
@@ -292,12 +306,33 @@ header.experiencefragment {
         text-decoration: none !important;
 
     }
+    .cmp-text{
+        font-weight: bold;
+        text-align: left;
+        p{
+            margin: 0;
+        };
+    }
+}
+.navigation
+{
+    width: 60%;
+    
+}
+.cmp-navigation__group
+{
+    display: flex;
+   
 }
 
 .cmp-navigation__item--level-0:hover>.cmp-navigation__group {
     background: none !important;
 }
-
+.cmp-navigation__item--level-0
+{
+    width: 100%;
+    display: list-item !important;
+}
 .cmp-navigation__item.cmp-navigation__item--active {
     .cmp-navigation__item-link {
         color: var(--font-color);

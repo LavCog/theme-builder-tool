@@ -1,7 +1,7 @@
 $(document).ready(function()
 {
     $.ajax({
-    url: "http://206.189.135.207:3001/api/get-color-by-sitecode?siteCode=Site-D",
+    url: "http://206.189.135.207:3001/api/get-color-by-sitecode?siteCode=Site-B",
     type: "GET",
     dataType: "json",
     success: function (data) {

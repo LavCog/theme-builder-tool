@@ -81,4 +81,7 @@
             </container>
         </root>
     </jcr:content>
+    <features/>
+    <help/>
+    <services/>
 </jcr:root>

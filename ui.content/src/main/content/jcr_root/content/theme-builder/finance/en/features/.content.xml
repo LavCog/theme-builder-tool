@@ -2,9 +2,9 @@
 <jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2024-04-09T14:59:20.409+05:30"
+        cq:lastModified="{Date}2024-04-09T16:22:55.225+05:30"
         cq:lastModifiedBy="admin"
-        cq:template="/conf/theme-builder/settings/wcm/templates/medicine"
+        cq:template="/conf/theme-builder/settings/wcm/templates/finance"
         jcr:primaryType="cq:PageContent"
         jcr:title="Features"
         sling:resourceType="theme-builder/components/page">
@@ -314,7 +314,7 @@
                     </container>
                 </container_1361064940>
                 <container_1715149808
-                    cq:styleIds="[1712040739718]"
+                    cq:styleIds="[1712570160937]"
                     jcr:lastModified="{Date}2024-04-02T14:33:39.799+05:30"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"

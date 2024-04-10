@@ -2,9 +2,9 @@
 <jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2024-04-09T14:59:20.409+05:30"
+        cq:lastModified="{Date}2024-04-10T12:13:00.437+05:30"
         cq:lastModifiedBy="admin"
-        cq:template="/conf/theme-builder/settings/wcm/templates/medicine"
+        cq:template="/conf/theme-builder/settings/wcm/templates/technology"
         jcr:primaryType="cq:PageContent"
         jcr:title="Features"
         sling:resourceType="theme-builder/components/page">
